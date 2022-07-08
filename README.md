@@ -9,10 +9,13 @@ CSS
 
 
 
-## Screenshots
+## Screenshots or Go through [demo]()
 
-![App Screenshot](/images/)
+### Desktop
+![App Screenshot](/Screenshots/screenshot1.jpeg)
 
+### Mobile
+![App Screenshot](/Screenshots/screenshot2.jpeg)
 
 ## Note
 This project is just for practice and fun only.
