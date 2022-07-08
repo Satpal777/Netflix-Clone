@@ -1,2 +1,3 @@
 # Netflix-Clone
-This Project is basic HTML/CSS practice project
+This Project is HTML/CSS base project to enhance the skills.
+
