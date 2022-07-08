@@ -9,7 +9,7 @@ CSS
 
 
 
-## Screenshots or Go through [demo]()
+## Screenshots
 
 ### Desktop
 ![App Screenshot](/Screenshots/screenshot1.jpeg)
