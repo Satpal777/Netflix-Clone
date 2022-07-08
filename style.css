@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#d1{
+    height: 98vh;
+    width: 100vw;
+    margin: 0;
+    background-image: url('./images/nf_bg.jpg');
+    background-size: cover;
+    border-bottom: 5px solid gray;
+}
+#shade{
+    height: 100%;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0.904),rgba(0, 0, 0, 0.148),rgba(0, 0, 0, 0.892));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar{
+    margin: 30px 49px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+    
+#logo{
+    margin: 0;
+    padding: 0;
+}
+
+#logo-img{
+height: 50px;
+width: 136px;
+}
+
+#lang{
+    background-color: black;
+    color: white;
+    padding: 6px;
+    height: 34px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: right;
+    background: url(./images/globe.svg) no-repeat 10% center;
+}
+#rig-title{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#signin{
+    padding: 6px 20px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+}
+.bottom{
+    margin: auto;
+}
+.main-head{
+    color: white;
+font-family: 'Roboto', sans-serif;
+font-size: 4rem;
+text-align: center;
+}
+.main-body{
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+    font-size: 1.6rem;
+}
+.main-bodytwo{
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+    font-size: 1.2rem;  
+}
+.email{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+
+}
+.email-input{
+    height: 100%;
+    width: 70%;
+}
+.email-input::placeholder{
+    padding: 10px;
+}
+.extramargin{
+    margin: 40px;
+}
+#gs{
+    height: 100%;
+    width: 30%;
+    border: none;
+    font-size: 1.6rem;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: red;
+}
+
+.container-2 , .container-3 {
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 77vh;
+    overflow: hidden;
+    background-color: black;
+    border-bottom: 5px solid gray;
+}
+
+.img-tv {
+    position: relative;
+    width: 60%;
+    height: auto;
+}
+
+.cont-2-content {
+    color: white;
+    width: 48%;
+    margin-left: 16px;
+    padding: 10px;
+}
+.cont-2-content h1 , .cont-3-content h1 {
+    font-size: 3.125rem;
+    margin: 10px;
+}
+.cont-2-content p , .cont-3-content p {
+    font-size: 1.5rem;
+    margin: 10px;
+} 
+.img-nf {
+    position: absolute; 
+    top: 40%;
+    left: 20%;
+    color: #e50914;
+    font-size: 2rem;
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.6),
+                 2px 2px rgba(0, 0, 0, 0.5),
+                 3px 3px rgba(0, 0, 0, 0.4),
+                 4px 4px rgba(0, 0, 0, 0.2);   
+}
+.img-nf-3 {
+    position: absolute; 
+    top: 30%;
+    left: 24%;
+    color: #e50914;
+    font-size: 1.4rem;
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.6),
+                 2px 2px rgba(0, 0, 0, 0.5),
+                 3px 3px rgba(0, 0, 0, 0.4),
+                 4px 4px rgba(0, 0, 0, 0.2);   
+}
+
+.cont-3-content {
+    color: white;
+    width: 48%;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.container-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+    
+}
+.cont-5-faq h1 {
+    color: white;
+    font-size: 3.125rem;
+}
+.box {
+    width: 60%;
+    height: 10vh;
+    margin: 10px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2px 20px;
+}
+.box p {
+    color: white;
+    font-size: 2rem;
+}
+.box i {
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width: 1200px) {
+   #rig-title{
+    width: 60%;
+    justify-content: space-evenly;
+   }
+}
+@media screen and (max-width: 460px) {
+    #d1{
+        height: 55vh;
+    }
+    .navbar{
+        margin: 20px;
+    }
+    #rig-title{
+        width: 80%;
+     justify-content: space-evenly;
+    }
+
+    #logo-img{
+    height: 25px;
+    width: 70px;
+    }
+    .main-head{
+        font-size: 2rem;
+    }
+    .main-body{
+        font-size: 1.2re,;
+    }
+    .main-bodytwo{
+        font-size: 1rem;
+    }
+    .extramargin{
+        margin-bottom: 0px;
+    }
+    .email{
+        flex-direction: column;
+    }
+    #gs{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .container-2{
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 2px;
+        height: 55vh;
+    }
+    .cont-2-content{
+        text-align: center;
+        width: 100%;
+    }
+    .cont-2-content h1{
+        font-size: 1.6rem;
+    }
+    .cont-2-content p{
+        font-size: 1.2rem;
+    }
+    .img-tv{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .img-tv img{
+        margin: auto;
+        display: block;
+        height: 250px;
+    }
+    .img-tv .img-nf{
+        left:26%
+    }
+    .img-tv .img-nf h1{
+        font-size: 2rem;
+    }
+    .container-3{
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        padding: 2px;
+        height: 55vh;
+    }
+    .cont-3-content{
+        text-align: center;
+        width: 100%;
+    }
+    .cont-3-content h1{
+        font-size: 1.6rem;
+    }
+    .cont-3-content p{
+        font-size: 1.2rem;
+    }
+    .cont-5-faq h1{
+        font-size: 2rem;
+        margin-bottom: 12px;
+    }
+    .box{
+        width: 90%;
+    }
+    .box p{
+        font-size: 1.6rem;
+    }
+ }
